@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span>POPUP</span>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li onclick="login()">Login</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae possimus harum. Adipisci sapiente optio perspiciatis quasi ad repudiandae quos iusto mollitia, reprehenderit eum eaque, fuga explicabo sequi quidem? Cumque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt laboriosam aliquam alias corporis quo incidunt tenetur, molestias minima expedita ducimus enim, voluptatem delectus, est ut vel possimus earum doloremque.</p>
+            </div>
+            <div class="section">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum atque aperiam ad alias nulla consequuntur, sunt commodi nobis consequatur sint ullam odio. A ad nisi error, eaque exercitationem hic quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt laboriosam aliquam alias corporis quo incidunt tenetur, molestias minima expedita ducimus enim, voluptatem delectus, est ut vel possimus earum doloremque.</p>
+            </div>  
+            <div class="section">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, numquam non debitis in ut officia similique animi est ipsam? Vitae magnam aliquid aut explicabo adipisci qui rerum ab sapiente alias!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt laboriosam aliquam alias corporis quo incidunt tenetur, molestias minima expedita ducimus enim, voluptatem delectus, est ut vel possimus earum doloremque.</p>
+            </div>
+            <div class="section">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis modi doloremque. Voluptas obcaecati nemo omnis nostrum sequi quisquam velit nulla porro recusandae asperiores dolores dignissimos nihil, vitae doloremque exercitationem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt laboriosam aliquam alias corporis quo incidunt tenetur, molestias minima expedita ducimus enim, voluptatem delectus, est ut vel possimus earum doloremque.</p>
+            </div>
+            <div class="section">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, molestiae et quas cupiditate ab quos veniam amet magnam aliquam quo rerum, ipsam cum in eligendi? Laudantium itaque asperiores similique deleniti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt laboriosam aliquam alias corporis quo incidunt tenetur, molestias minima expedita ducimus enim, voluptatem delectus, est ut vel possimus earum doloremque.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup_container display_popup">
+        <div class="popup_card">
+            <h2>Login</h2>
+            <div class="card_input">
+                <label for="username">Username</label>
+                <input type="text" id="username">
+            </div>
+            <div class="card_input">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="card_actions">
+                <button>Login</button>
+                <button onclick="close_login()">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
